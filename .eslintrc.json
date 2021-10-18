@@ -1,0 +1,12 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "space-before-blocks": "off",
+    "@typescript-eslint/method-signature-style": "off",
+    "@typescript-eslint/lines-between-class-members": "off"
+  }
+}
